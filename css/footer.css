@@ -85,3 +85,24 @@
 .curriculum {
   background-image: url(../img/curriculum.png);
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #8f8f8f;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(18, 18, 19);
+  transform: rotate(-90deg);
+  border: 0.1rem solid rgb(244, 249, 244);
+
+}
+
+a {
+  text-decoration: none;
+}
